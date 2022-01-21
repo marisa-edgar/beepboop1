@@ -1,7 +1,7 @@
 .jumbotron {
   text-align: justify;
   font-size: 16pt;
-  background-color: blanchedalmond;
+  background-color: #651e18b9; 
   color: black;
   border: solid #fff;
   border-width: 3px;
@@ -22,3 +22,16 @@ body {
   background-attachment: static;
   background-size: cover;
 }
+.column {
+  background-color: #f88479a5;
+  margin: 15px;
+  text-align: justify;
+  border: 3px solid;
+  height: 500px;
+  padding: 15px;
+  font-size: 16pt;
+  font-weight: bolder;
+}
+/* #output {
+  display: none;
+} */
