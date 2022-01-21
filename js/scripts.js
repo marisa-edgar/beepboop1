@@ -25,7 +25,8 @@ $(document).ready(function(){
   $("form#formOne").submit(function(event){
     event.preventDefault();
     const formInput = $("input#input").val();
-    let result = beepBoop(formInput)
+    const nameInput = $("input#name").val();
+    let result = beepBoop(formInput, nameInput);
     $("#output").text(result);
   });
 });
