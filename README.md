@@ -46,3 +46,7 @@ Expected Output: 0
 Test: "It should return an array that returns beep in instances of 1"
 Code: beepBoop(0);
 Expected Output: "0, beep, 2, 3" 
+
+Test: "It should return an array that returns boop in instances of 2"
+Code: beepBoop(0);
+Expected Output: "0, beep, boop, 3" 
