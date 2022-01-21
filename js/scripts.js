@@ -5,10 +5,12 @@ function beepBoop(number) {
   let beepBoopArray= [];
     for(let i=0; i <= number; i++){
       let beepBoopString =i.toString();
-      if(beepBoopString.includes("1")){
-        beepBoopArray.push("beep");
+      if (beepBoopString.includes("3")) {
+        beepBoopArray.push("wontyou be my neighbor")
       } else if (beepBoopString.includes("2")) {
         beepBoopArray.push("boop");
+      } else if (beepBoopString.includes("1")){
+        beepBoopArray.push("beep");
       } else {
         beepBoopArray.push(" " + beepBoopString);
       }
