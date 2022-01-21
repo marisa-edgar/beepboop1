@@ -35,3 +35,11 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 Copyright (c) _date_ _author name(s)_
+
+
+Describe: beepBoop()
+
+Test: "It should return an array with a 0 if the number 0 is inputted"
+Code: beepBoop(0);
+Expected Output: 0
+
