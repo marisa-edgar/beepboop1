@@ -1,3 +1,14 @@
+
+//Business logic
+
+function beepboop(number) {
+  let beepboopArray= [];
+    for(let i=0; i <= number; i++){
+      let beepboopString =i.toString();
+    }
+}
+
+
 // UI Logic
 
 $(document).ready(function(){
@@ -8,10 +19,5 @@ $(document).ready(function(){
     $("#output").text(result);
   });
 });
-
-
-//Business logic
-
-
 
 
