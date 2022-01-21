@@ -7,6 +7,8 @@ function beepBoop(number) {
       let beepBoopString =i.toString();
       if(beepBoopString.includes("1")){
         beepBoopArray.push("beep");
+      } else if (beepBoopString.includes("2")) {
+        beepBoopArray.push("boop");
       } else {
         beepBoopArray.push(" " + beepBoopString);
       }
