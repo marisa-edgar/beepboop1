@@ -1,40 +1,41 @@
 # _{Application Name}_
 
-#### By _**{List of contributors}**_
+#### By _**Marisa Edgar**_
 
-#### _{Brief description of application}_
+#### _{Enter a name and number and get a custom response}_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _JavaScript_
+* _JQuery_
+* _CSS_
+* _Bootstrap_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_{Enter your name and a number and receive a message counting up to your chosen number where 1s are replaced with beep, 2s with boop, and threes with your name... wont you be my neighbor?}_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Code editor required (such as Visual Studio Code and Github account).
+* _Create and navigate to directory in the terminal on your local machine.
+* _Run 'git clone (https://github.com/marisa-edgar/beepboop1) from the terminal to clone the project directory.
+* _Open in command line using "code ."
+* _Open HTML in your browser
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Any questions or concerns contact Marisa Edgar at marisaedgar1212@gmail.com
 
-Copyright (c) _date_ _author name(s)_
+MIT
+
+Copyright (c) 2022 Marisa Edgar
 
 
 Describe: beepBoop()
@@ -54,3 +55,7 @@ Expected Output: "0, beep, boop, 3"
 Test: "It should return an array that returns "wont you be my neighbor" in instances of 2"
 Code: beepBoop(0);
 Expected Output: "0, beep, boop, wont you be my neighbor" 
+
+Test: "It should return an array that returns  name "...wont you be my neighbor?" in instances of 2"
+Code: beepBoop(0);
+Expected Output: "0, beep, boop,  name ...wont you be my neighbor?" 
