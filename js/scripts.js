@@ -28,6 +28,7 @@ $(document).ready(function(){
     const name =$("input#name").val();
     let result = beepBoop(formInput, name);
     $("#output").text(result);
+    $("#robot").show();
   });
 });
 
