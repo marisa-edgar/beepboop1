@@ -35,7 +35,7 @@ Any questions or concerns contact Marisa Edgar at marisaedgar1212@gmail.com
 
 MIT
 
-Copyright (c) 2022 Marisa Edgar
+License under [MIT License](LICENSE) Copyright (c) 2022 Marisa Edgar
 
 
 Describe: beepBoop()
